@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26483" started-at="2020-06-09T03:39:07Z" finished-at="2020-06-09T03:39:33Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="18914" started-at="2020-06-09T03:39:07Z" finished-at="2020-06-09T03:39:26Z">
+      <class name="TestNgDemo.ParallelClass2">
+        <test-method status="PASS" signature="par1()[pri:0, instance:TestNgDemo.ParallelClass2@61832929]" name="par1" duration-ms="18867" started-at="2020-06-09T09:09:07Z" finished-at="2020-06-09T09:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- par1 -->
+      </class> <!-- TestNgDemo.ParallelClass2 -->
+    </test> <!-- Test1 -->
+    <test name="Test" duration-ms="26483" started-at="2020-06-09T03:39:07Z" finished-at="2020-06-09T03:39:33Z">
+      <class name="TestNgDemo.ParallelClass1">
+        <test-method status="PASS" signature="par()[pri:0, instance:TestNgDemo.ParallelClass1@1593948d]" name="par" duration-ms="26441" started-at="2020-06-09T09:09:07Z" finished-at="2020-06-09T09:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- par -->
+      </class> <!-- TestNgDemo.ParallelClass1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
